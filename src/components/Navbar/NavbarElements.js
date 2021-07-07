@@ -10,10 +10,17 @@ export const NavContainer = styled.div`
     height: 60px;
 `;
 
-export const Nav = styled.div`
+export const NavListContainer = styled.div`
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 `;
 
-
+export const NavIconsContainer = styled.div`
+    width: 400px;
+    display: flex;
+    justify-content: flex-start
+`;
 
 export const NavLink = styled(Link)`
     @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
@@ -25,8 +32,8 @@ export const NavLink = styled(Link)`
 `;
 
 export const LogoContainer = styled.div`
-    margin-left: 85px;
-`
+//   margin-left: 85px;
+`;
 
 export const Logo = styled.img`
     margin-top: 60px;

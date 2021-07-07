@@ -1,10 +1,11 @@
 import React from 'react'
 import {
-  Nav,
+  NavListContainer,
   NavLink,
   Logo,
   NavContainer,
   LogoContainer,
+  NavIconsContainer,
 } from "./NavbarElements";
 import logo from '../../Asset/images/logo.png'
 
@@ -12,19 +13,19 @@ const Navbar = () => {
     return (
       <>
         <NavContainer>
-          <Nav>
+          <NavIconsContainer>
             <NavLink to="/">icon</NavLink>
             <NavLink to="/">icon</NavLink>
-          </Nav>
+          </NavIconsContainer>
           <LogoContainer>
             <Logo src={logo} alt="brewery-logo" />
           </LogoContainer>
-          <Nav>
+          <NavListContainer>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/">About</NavLink>
             <NavLink to="/">Beer</NavLink>
             <NavLink to="/">Breweries</NavLink>
-          </Nav>
+          </NavListContainer>
         </NavContainer>
       </>
     );
