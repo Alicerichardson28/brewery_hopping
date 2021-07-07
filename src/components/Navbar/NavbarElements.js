@@ -14,5 +14,14 @@ export const NavLink = styled(Link)`
   font-family: "Karla", sans-serif;
   color: #ffffff;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
+  font-size: 16px;
+`;
+export const Logo = styled.img`
+  margin-top: 60px;
+  margin-right: 15px;
+  width: 90px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffffff;
 `;
